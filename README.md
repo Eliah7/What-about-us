@@ -19,26 +19,26 @@ Implementation
 -------------------
 As the problem statement the implementation involves two smaller applications.
 
-1. Gestures to sound
-2. Sound to Gestures
---------------------------------------------------------------------------------------------------------------------
-  *** 1. Gestures to Sound ***
-      The implementation of this part of the app requires the following:
-        1. Input:
-          A way to take in images as vectors of pixels. Generate different variants of the images
-          i.e grey, color coded etc.
-          Use convolutional neural networks to generate features from the image vectors.
+  1. Gestures to sound
+  2. Sound to Gestures
+-------------------------------------------------------------------------------------------------------------------
+    *** 1. Gestures to Sound ***
+        The implementation of this part of the app requires the following:
+          1. Input:
+            A way to take in images as vectors of pixels. Generate different variants of the images
+            i.e grey, color coded etc.
+            Use convolutional neural networks to generate features from the image vectors.
 
-        2. Classification:
-        Create a convolutional neural network that uses the features and maps to respective labels and use it in
-            A. Training
-            Train this model on already mapped labels.
+          2. Classification:
+          Create a convolutional neural network that uses the features and maps to respective labels and use it in
+              A. Training
+              Train this model on already mapped labels.
 
-            B. Testing
-            Use an array images to test which labels it generates for the test images.
+              B. Testing
+              Use an array images to test which labels it generates for the test images.
 
-        3. Integration with video feeds
-        Create a way of generating frames of images from a video feed instead of single images as inputs.
+          3. Integration with video feeds
+          Create a way of generating frames of images from a video feed instead of single images as inputs.
 
   ------------------------------------------------------------------------------------------------------------------
 
