@@ -17,7 +17,7 @@ Project inspiration
 -------------------
 Implementation
 -------------------
-As the problem statement the implementation involves two smaller applications.
+As the problem statement goes the implementation involves two smaller applications.
 
   1. Gestures to sound
   2. Sound to Gestures
